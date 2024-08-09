@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Home Section -->
-    <section id="home" class="home-section" style="background-image: url('{{ asset('images/background 1.png') }}');">
+    <section id="home" class="home-section" style="background-image: url('{{ asset('images/background 1.png') }}')">
         <div class="text-section">
             <img src="{{ asset('images/logo-travel.png') }}" alt="Logo Travel" class="logo-travel">
             <a href="#about" class="explore-button">Tentang Program</a>

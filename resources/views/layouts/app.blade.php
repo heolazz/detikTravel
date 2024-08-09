@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
     <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('images/logo-nav.png') }}" alt="Logo" class="navbar-logo">
     </a>
@@ -29,7 +29,7 @@
                 <a class="nav-link" href="{{ url('/') }}#news">Berita</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link registrasi-link" href="{{ route('registrasi') }}">Registrasi</a>
+                <a class="nav-link registrasi-link text-white" href="{{ route('registrasi') }}">Registrasi</a>
             </li>
         </ul>
     </div>
